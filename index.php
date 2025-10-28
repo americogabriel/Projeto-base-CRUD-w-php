@@ -7,6 +7,7 @@
 </head>
 <body>
     <h2>Site Exemplo para Exemplificar Banco de dados</h2>
+    <a href="?query=cadastracliente">Cadastrar cliente</a>
     <header>
         <?php
             if (empty($_SERVER['QUERY_STRING'])){
@@ -15,7 +16,7 @@
             }
             else{
                 $dado_get = $_GET['query'];
-                include_onde("$dado_get.php");
+                include_once("$dado_get.php");
             }
         ?>
     </header>
