@@ -6,7 +6,7 @@
         $nome = $_POST['nome'];
         $pais = $_POST['pais'];
 
-        $sql = "INSERT INTO pessoas (nome,pais) VALUES ('$nome','$pais')";
+        $sql = "INSERT INTO pessoas (nome,pais) VALUES ('$nome','$pais')";/* String para inserir em "nome,pais" na tabela "pessoas" os valores "$nome e $pais"*/
 
         $adcionar = mysqli_query($connect,$sql);
 
@@ -17,6 +17,5 @@
             echo "<h2> Novo usuário Adcionado com Sucesso no Banco de Dados";
         }
     }
-    echo "<a href='index.php'>Voltar</a>";
 
 ?>

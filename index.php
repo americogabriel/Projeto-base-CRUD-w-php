@@ -8,6 +8,7 @@
 <body>
     <h2>Site Exemplo para Exemplificar Banco de dados</h2>
     <a href="?query=cadastracliente">Cadastrar cliente</a>
+    <a href="?query=listarpessoas">listar cliente</a>
     <header>
         <?php
             if (empty($_SERVER['QUERY_STRING'])){
@@ -17,8 +18,10 @@
             else{
                 $dado_get = $_GET['query'];
                 include_once("$dado_get.php");
+                echo "<a href='index.php'>Voltar para a Página Inicial</a>";
             }
         ?>
     </header>
+    
 </body>
 </html>
