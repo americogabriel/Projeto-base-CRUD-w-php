@@ -1,5 +1,5 @@
 <div class="container my-5">
-    <h2 class="mb-4 text-center">Fale Conosco</h2>
+    <h2 class="mb-4 text-center">Novo Cliente</h2>
     <form method="POST" class="mx-auto" style="max-width: 500px;">
         <div class="mb-3">
             <label for="nome" class="form-label">Nome</label>
