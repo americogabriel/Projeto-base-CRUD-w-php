@@ -20,7 +20,7 @@
                 ?>
                     <tr>
                         <td><?=$arraytodaspessoas['nome']?></td>
-                        <td>- <?=$arraytodaspessoas['pais']?></td>
+                        <td><?=$arraytodaspessoas['pais']?></td>
                     </tr>
                 <?php
                     }
