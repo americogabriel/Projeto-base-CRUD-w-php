@@ -1,5 +1,11 @@
 # Banco de Dados com PHP
-
+**Continuação do Projeto em SALA**
+CRUD de avaliações adcionado ao arquivo index do programa principal. 
+O sistema conta com uma parte de admin, que permite alterar e remover
+valores das duas tabelas do banco de dados, e outra para navegação, onde existe
+um template html + css contendo funções para criar dados e visualizá-los.
+Dois arquivos .sql que são os dois códigos SQL para criar as duas tabelas do 
+programa.
 
 
 ## Getting started
