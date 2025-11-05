@@ -27,7 +27,7 @@
         $pegartabela = mysqli_query($connect,$sql);
 
         if(mysqli_num_rows($pegartabela) > 0){// Conta o número de linhas da consulta da tabela e volta quantas linhas foram encontradas
-            $dados = mysqli_fetch_array($pegartabela);// Traz os dados consultados na tabela em forma de array php, podendo ser utilizado
+            $dados = mysqli_fetch_array($pegartabela);// Traz os dados consultados de uma linha por vez da tabela em forma de array php, podendo ser utilizado
     
 
 ?>

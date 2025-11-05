@@ -8,7 +8,9 @@
 <body>
     <h2>Site Exemplo para Exemplificar Banco de dados</h2>
     <a href="?query=cadastracliente">Cadastrar cliente</a>
-    <a href="?query=listarpessoas">listar cliente</a>
+    <a href="?query=cadastramensagem">Cadastrar Mensagem</a>
+    <a href="?query=listarmensagem">Listar Mensagem</a>
+    <a href="?query=listarpessoas">Listar cliente</a>
     <header>
         <?php
             if (empty($_SERVER['QUERY_STRING'])){

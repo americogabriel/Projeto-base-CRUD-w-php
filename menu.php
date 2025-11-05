@@ -22,6 +22,12 @@ $current = $_GET['query'] ?? 'conteudo';
                 <li class="nav-item">
                     <a class="nav-link <?= ($current == 'conteudo') ? 'active' : '' ?>" href="?query=conteudo">Conteúdo</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link <?= ($current == 'faleconosco') ? 'active' : '' ?>" href="?query=faleconosco">Fale Conosco</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <?= ($current == 'avaliacoes') ? 'active' : '' ?>" href="?query=avaliacoes">Avaliações</a>
+                </li>
             </ul>
         </div>
     </div>

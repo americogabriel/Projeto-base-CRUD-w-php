@@ -6,7 +6,7 @@
     $pegartabela = mysqli_query($connect,$sql);
 
     if(mysqli_num_rows($pegartabela) > 0){// Conta o número de linhas da consulta da tabela e volta quantas linhas foram encontradas
-        while(!empty($dados = mysqli_fetch_array($pegartabela))){ // Traz os dados consultados na tabela em forma de array php, podendo ser utilizado
+        while(!empty($dados = mysqli_fetch_array($pegartabela))){ // Traz os dados consultados de uma linha por vez da tabela em forma de array php, podendo ser utilizado
             $id = $dados['id'];
             echo "ID: ".$id."<br>";
             echo  "NOME: ".$dados['nome']."<br>";

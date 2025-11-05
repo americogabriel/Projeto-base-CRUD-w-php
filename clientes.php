@@ -11,16 +11,16 @@
                 <thead>
                     <tr>
                         <th>Cliente</th>
-                        <th>Pais</th>
+                        <th>País</th>
                     </tr>
                 </thead>
                 <tbody>
                 <?php
-                    while(!empty($arraytodaspessoas = mysqli_fetch_array($todaspessoas))){
+                    while(!empty($arraypessoas = mysqli_fetch_array($todaspessoas))){
                 ?>
                     <tr>
-                        <td><?=$arraytodaspessoas['nome']?></td>
-                        <td><?=$arraytodaspessoas['pais']?></td>
+                        <td><?=$arraypessoas['nome']?></td>
+                        <td><?=$arraypessoas['pais']?></td>
                     </tr>
                 <?php
                     }
